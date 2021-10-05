@@ -1,0 +1,25 @@
+{
+    "name": "sunadarake/sculpin-insert-bundle",
+    "description": "sculpin insert bundle",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "sculpin",
+        "bundle"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Darake\\SculpinInsertBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sunadarake",
+            "email": "toumasuxp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0 || ^7.3",
+        "sculpin/sculpin": "^3.1.0"
+    }
+}
